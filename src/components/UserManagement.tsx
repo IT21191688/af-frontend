@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { showErrorToast, showSuccessToast } from "./services/AlertService";
 import { FaTrash, FaEdit } from "react-icons/fa";
 
@@ -61,7 +61,7 @@ const UserManagement = () => {
     }
   };
 
-  const handleEdit = (userId: any) => {};
+  // const handleEdit = (userId: any) => {};
 
   return (
     <div className="min-h-screen py-6 sm:py-12">
@@ -108,7 +108,7 @@ const UserManagement = () => {
                   </td>
                   <td className="py-3 px-6 text-center whitespace-nowrap">
                     <button
-                      onClick={() => handleEdit(user._id)}
+                      // onClick={() => handleEdit(user._id)}
                       className="text-blue-500 mr-2"
                     >
                       <FaEdit />

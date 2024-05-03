@@ -10,7 +10,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState<string>("");
   const [emailError, setEmailError] = useState<string>("");
   const [passwordError, setPasswordError] = useState<string>("");
-  const [rememberMe, setRememberMe] = useState<boolean>(false); // State to track "Remember Me" checkbox
+  // const [rememberMe, setRememberMe] = useState<boolean>(false); // State to track "Remember Me" checkbox
 
   useEffect(() => {
     const rememberedEmail = localStorage.getItem("rememberedEmail");
@@ -127,7 +127,7 @@ const LoginPage = () => {
                         type="checkbox"
                         className="custom-control-input"
                         id="customControlValidation1"
-                        onChange={(e) => setRememberMe(e.target.checked)}
+                        // onChange={(e) => setRememberMe(e.target.checked)}
                       />
                       <label
                         className="custom-control-label ml-2 cursor-pointer"
