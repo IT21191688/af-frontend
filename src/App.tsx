@@ -25,7 +25,7 @@ function App() {
         <ToastContainer />
 
         <Routes>
-          {user === "admin" && (
+          {/* {user === "admin" && (
             <>
               <Route path="/userManagement" element={<UserManagement />} />
               <Route path="/userHome" element={<UserHome />} />
@@ -41,7 +41,7 @@ function App() {
               <Route path="/apodViewer" element={<APODViewer />} />
               <Route path="/cmeAnalysis" element={<CMEAnalysis />} />
             </>
-          )}
+          )} */}
           <Route path="/userManagement" element={<UserManagement />} />
           <Route path="/userHome" element={<UserHome />} />
           <Route path="/marsRover" element={<MarsRoverPhotos />} />
