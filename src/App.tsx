@@ -42,6 +42,11 @@ function App() {
               <Route path="/cmeAnalysis" element={<CMEAnalysis />} />
             </>
           )}
+          <Route path="/userManagement" element={<UserManagement />} />
+          <Route path="/userHome" element={<UserHome />} />
+          <Route path="/marsRover" element={<MarsRoverPhotos />} />
+          <Route path="/apodViewer" element={<APODViewer />} />
+          <Route path="/cmeAnalysis" element={<CMEAnalysis />} />
           <Route path="/" element={<LoginPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
