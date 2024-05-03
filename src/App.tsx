@@ -2,10 +2,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "./App.css";
-import LoginPage from "./components/LoginPage";
-import RegisterPage from "./components/RegisterPage";
+//import LoginPage from "./components/LoginPage";
+//import RegisterPage from "./components/RegisterPage";
 import NavBar from "./components/NavBar";
-import UserManagement from "./components/UserManagement";
+//import UserManagement from "./components/UserManagement";
 import APODViewer from "./components/APODViewer";
 import UserHome from "./components/UserHome";
 import MarsRoverPhotos from "./components/MarsRoverPhotos";
@@ -42,14 +42,14 @@ function App() {
               <Route path="/cmeAnalysis" element={<CMEAnalysis />} />
             </>
           )} */}
-          <Route path="/userManagement" element={<UserManagement />} />
-          <Route path="/userHome" element={<UserHome />} />
+          {/* <Route path="/userManagement" element={<UserManagement />} /> */}
+          <Route path="/" element={<UserHome />} />
           <Route path="/marsRover" element={<MarsRoverPhotos />} />
           <Route path="/apodViewer" element={<APODViewer />} />
           <Route path="/cmeAnalysis" element={<CMEAnalysis />} />
-          <Route path="/" element={<LoginPage />} />
+          {/* <Route path="/" element={<LoginPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/register" element={<RegisterPage />} /> */}
         </Routes>
       </div>
     </Router>
