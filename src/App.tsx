@@ -14,9 +14,9 @@ import CMEAnalysis from "./components/CMEAnalysis";
 function App() {
   const [user, setUser] = useState<string | null>(null);
 
-  useEffect(() => {
-    setUser(localStorage.getItem("role") || null);
-  }, []);
+  // useEffect(() => {
+  //   setUser(localStorage.getItem("role") || null);
+  // }, []);
 
   return (
     <Router>
