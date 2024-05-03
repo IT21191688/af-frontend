@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+//import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "./App.css";
@@ -12,7 +12,7 @@ import MarsRoverPhotos from "./components/MarsRoverPhotos";
 import CMEAnalysis from "./components/CMEAnalysis";
 
 function App() {
-  const [user, setUser] = useState<string | null>(null);
+  //  const [user, setUser] = useState<string | null>(null);
 
   // useEffect(() => {
   //   setUser(localStorage.getItem("role") || null);
